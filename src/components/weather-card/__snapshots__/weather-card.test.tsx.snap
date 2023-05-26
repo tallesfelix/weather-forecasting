@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherCard renders WeatherCard component 1`] = `
+<DocumentFragment>
+  <div
+    class="weatherCard"
+  >
+    <div>
+      <img
+        alt="snow"
+        src=""
+      />
+      <p>
+        Snow
+      </p>
+    </div>
+    <div>
+      <span>
+        min. 0°C
+      </span>
+      <span>
+        max. 4°C
+      </span>
+      <p>
+        1/1
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,36 @@
+.container {
+	position: relative;
+}
+
+.searchInput {
+	width: 100%;
+	border-radius: 10px;
+	border: unset;
+	height: 30px;
+	padding: 5px 12px;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+}
+
+.suggestions {
+	position: absolute;
+	background: #fff;
+	list-style: none;
+	width: 100%;
+	top: 23px;
+	border: 1px solid #ccc;
+	border-top: unset;
+
+	& li {
+		padding: 5px;
+		cursor: pointer;
+	}
+
+	& li:hover {
+		background: #ccc;
+	}
+
+	& li+li {
+		margin-top: 5px;
+	}
+}

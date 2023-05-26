@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherForecast renders WeatherForecast component 1`] = `
+<DocumentFragment>
+  <section
+    class="footer"
+  >
+    <div
+      class="footerContainer"
+    >
+      <div
+        class="container"
+      >
+        <input
+          class="searchInput"
+          disabled=""
+          placeholder="Search for another location"
+          type="text"
+          value=""
+        />
+      </div>
+      <ul
+        class="timesForecasting"
+      >
+        <li>
+          <div
+            class="weatherCard"
+          >
+            <div>
+              <img
+                alt="snow"
+                src=""
+              />
+              <p>
+                Snow
+              </p>
+            </div>
+            <div>
+              <span>
+                min. 0°C
+              </span>
+              <span>
+                max. 4°C
+              </span>
+              <p>
+                1/1
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</DocumentFragment>
+`;
