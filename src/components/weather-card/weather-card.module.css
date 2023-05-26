@@ -37,11 +37,15 @@
   background: white;
   padding: 10px;
   border-radius: 8px;
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, 100%);
 
+  & div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   & p {
     font-weight: 600;
   }
